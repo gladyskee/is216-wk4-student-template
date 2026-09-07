@@ -12,7 +12,7 @@
 <template>
     <h1>Please select your login option</h1>
     <select v-model="loginType">
-        <option value="username">Username login</option>
+        <option selected value="username">Username login</option>
         <option value="email">Email login</option>
     </select>
 

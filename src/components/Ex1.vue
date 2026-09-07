@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    {{ message }} 
+    <p>{{ message }}</p>
    
     <label for=""> <input type="radio" name="fruit"> {{ fruit1 }} </label> 
     <label for=""> <input type="radio" name="fruit"> {{ fruit2 }} </label> 
