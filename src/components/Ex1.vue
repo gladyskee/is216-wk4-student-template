@@ -1,8 +1,11 @@
 <script setup>
     import { ref } from 'vue'
 
-    // Add code here
-    // challenge: use array  
+    const message = ref('Choose your favourite fruit:')
+
+    const fruit1 = ref('apple')
+    const fruit2 = ref('orange')
+    const fruit3 = ref('peach')
     
 </script>
 
